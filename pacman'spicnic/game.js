@@ -36,6 +36,8 @@ const levels = [
 		let message = "Pacman's Picnic";
 		let message2 = "This game has 3 levels. You must collect the key and reach the picnic blanket so Pacman can feast on his delicious fruit. Pacman must collect the key to move through the doors. Be careful! If you run into a ghost, it's game over and poor Pacman won't get to enjoy his picnic. ";
 		
+		document.getElementById("button").style.display = "none";
+		
 		showLightBox(message, message2);
 	}
 	
