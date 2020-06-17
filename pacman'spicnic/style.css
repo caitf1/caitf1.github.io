@@ -181,6 +181,16 @@ body {
 	color:#142850;
 }
 
+#alsobutton {
+	position:absolute;
+	top:70%;
+	right:180px;
+	height:40px;
+	width:100px;
+	background-color:#FFFFFF;
+	color:#142850;
+}
+
 #positionMessage {
 		position:absolute;
 		top:45px;
