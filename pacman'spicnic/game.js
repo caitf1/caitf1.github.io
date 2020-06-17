@@ -220,6 +220,9 @@ const levels = [
 		if (nextClass.includes("enemy")) {
 			message = "You Lose";
 			message2 = "Oh no! Poor Pacman will have to go to bed hungry tonight.";
+			
+			document.getElementById("button").style.display = "block";
+			
 			showLightBox(message, message2);
 			currentLevel = 0;
       clearTimeout(currentAnimation);
@@ -293,6 +296,9 @@ const levels = [
 		 
 		 if(boxes[index].classList.contains("horseup")|| boxes[index].classList.contains("horsedown")|| boxes[index].classList.contains("horseleft")||boxes[index].classList.contains("horseright")) {
 			console.log("Enemy landed on horse");
+			 
+			 document.getElementById("button").style.display = "block";
+			 
       showLightBox("You lose", "Try again?");
 			clearTimeout(currentAnimation);
 			setTimeout (function(){
